@@ -4,7 +4,7 @@ MAINTAINER Teruyuki Kobayashi <koba1014@gmail.com>
 WORKDIR /src
 ADD . .
 
-ENV HUGO_VERSION 0.18
+ENV HUGO_VERSION 0.18.1
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit
 
 RUN apk update && apk upgrade &&  \
